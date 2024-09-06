@@ -1,0 +1,20 @@
+---
+title: "Title Placeholder for Blog Post 1"
+date: "08/21/2024"
+description: |
+  Post 1 description placeholder
+categories: 
+  - cat1
+  - cat2
+  - cat3
+image: desk.png
+image-alt: "My desk overcome with actuarial calculations"
+#fig-cap-location: bottom
+draft: false
+---
+\
+Statistics. Data science. Analytics. AI. Applied math.
+
+## Intro
+
+I'll write something soon. There's a lot to discuss!

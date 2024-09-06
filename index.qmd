@@ -1,0 +1,15 @@
+---
+title: "Hello!"
+image: files/profiles/profile.png
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/andrewmbender
+    - icon: github
+      text: GitHub
+      href: https://github.com/andrewmbender/amb-quarto
+---
+\
+I will introduce myself in this space.

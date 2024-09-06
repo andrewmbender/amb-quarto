@@ -1,0 +1,8 @@
+# Date format
+date-format: "dddd, MMMM D, YYYY"
+
+# Enable banner style title blocks
+title-block-banner: rgba(39, 39, 39, 0.7)
+
+# Default author
+author-meta: "Andrew M Bender"

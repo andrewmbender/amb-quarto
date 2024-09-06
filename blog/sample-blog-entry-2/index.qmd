@@ -1,0 +1,23 @@
+---
+title: "Title Placeholder for Blog Post 2"
+date: "08/27/2024"
+description: |
+  Post 2 description placeholder 
+categories: 
+  - cat4
+  - cat5
+image: desk.png
+image-alt: "My desk overcome with math papers"
+#fig-cap-location: bottom
+draft: false
+---
+\
+This is my second future blog post.
+
+## Why does the "big data" paradigm annoy me?
+
+You will find out.
+
+## What is enterprise risk management?
+
+An excellent tool, seldom done right.

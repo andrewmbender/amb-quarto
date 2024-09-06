@@ -1,0 +1,5 @@
+---
+title: 404 Error
+---
+
+This page could not be found because the URL does not exist. Please check your spelling. If you think the bug is on my end, kindly drop me an email.

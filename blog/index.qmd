@@ -1,0 +1,16 @@
+---
+title: "Blog"
+author: ""
+description-meta: "Andrew M Bender's blog"
+listing:
+  #- id: posts
+  - contents: "/*/index.qmd"
+    sort: "date desc"
+    categories: true
+page-layout: full
+date-format: "MMMM D, YYYY"
+code-tools: false
+comments: false
+engine: knitr
+freeze: false
+---

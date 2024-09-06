@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: _site
+  preview: 
+    port: 5555
+    browser: true
+    watch-inputs: true
+    navigate: true
+  render: 
+    - "*.qmd"
+    - "*.md"
+    - "!etc/"
+  resources:
+    - "files/**"
+    #- "etc/**"
+freeze: true
+bibliography: files/bib/references.bib
+
+# Metadata stuff
+pagetitle: "{{< meta title >}}"
+author-meta: "Andrew M Bender"
+
+website:
+  title: "Andrew M Bender"
+  description: |
+    Andrew M Bender is a...
+  #site-url:  
+  #favicon:
+  repo-url: "https://github.com/andrewmbender/amb-quarto"
+  #open-graph: 
+  #image: "/files/profiles/..."
+  #locale: en_US
+
+  navbar:
+    pinned: true
+    logo: files/profiles/logo.png
+
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about/index.qmd
+      - text: "Now"
+        href: now/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+
+  page-footer: 
+    center: |
+      "Andrew M Bender 2023-2024 <br/>"
+format:
+  html:
+    theme: 
+      - default
+      - amb.scss
+    html-math-method: katex
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: monokai

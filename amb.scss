@@ -1,0 +1,68 @@
+/*-- scss:defaults --*/
+
+$theme: "amb" !default;
+
+// Fonts
+$font-family-sans-serif: "Verdana";
+$font-stack: "Verdana", sans-serif;
+$title-font-family: Verdana, sans-serif;
+$body-font-family: Verdana, sans-serif;
+$headings-font-family: Verdana, sans-serif;
+$title-font-weight: 600;
+$body-font-weight: 300;
+$font-size-base: 1.0rem;
+
+// Color system
+$logo-yellow: #ffffcc;
+$logo-blue: #3399cc;
+$green-chalkboard: #2f754b;
+$white:    #ffffff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #373a3c;
+$gray-900: #212529;
+$black:    #000000;
+
+// Define Colors
+$navbar-bg: black;
+$navbar-fg: white;
+$navbar-hl: white;
+//$body-bg: $logo-yellow;
+$body-bg: beige;  
+//$footer-bg: mix(#fff, gray, 75%);
+//$footer-bg: rgba(39, 39, 39, .25);
+$footer-bg: lightgrey;
+$footer-fg: $black;
+
+// Custom CSS styling
+p{
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+}
+  
+h1, h2, h3, h4, h5 {
+  font-family: $title-font-family;
+  font-weight: $title-font-weight;
+}
+  
+.navbar .nav-item {margin-left: 5px; margin-right: 5px;}
+  
+.nav-item a:hover {
+  //background: grey;
+  border-bottom: 2px dotted;
+  color: $gray-400;
+}
+  
+.nav-item a.active {
+  border-bottom: 2px solid;
+  color: $gray-400;
+}
+
+.navbar img {min-block-size:48px; margin-left: 5px; margin-right:5px}
+
+.footer {border-top: black dashed 1px}

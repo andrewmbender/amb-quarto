@@ -1,0 +1,9 @@
+---
+title: "About Me"
+author: ""
+comments: false
+---
+
+I will go into more detail about myself and my experiences here.
+
+A partial (quarter-page?) resume may fit here nicely.
